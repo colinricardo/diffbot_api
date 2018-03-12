@@ -2,7 +2,6 @@ import os
 import requests
 from urllib.parse import quote_plus
 from os.path import join, dirname
-from dotenv import load_dotenv
 
 ARTICLE_API = 'https://api.diffbot.com/v3/article?url={}&token={}&discussion=false'
 

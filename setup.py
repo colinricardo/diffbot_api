@@ -18,7 +18,7 @@ if sys.argv[-1] == "publish":
 
 setup(
     name='diffbot_api',
-    version='0.1.0',
+    version='0.1.1',
     description='Diffbot API Client.',
     long_description='See README.md file.',
     author='Colin Ricardo',
