@@ -38,15 +38,15 @@ class Article:
         p = clss(parser=parser)
 
         objects = d['objects'][0]
-        date = objects['date']
-        author = objects['author']
-        siteName = objects['siteName']
-        videos = objects['videos']
-        title = objects['title']
-        html = objects['html']
-        text = objects['text']
-        tags = objects['tags']
-        publisherCountry = objects['publisherCountry']
+        date = objects.get('date')
+        author = objects.get('author')
+        siteName = objects.get('siteName')
+        videos = objects.get('videos')
+        title = objects.get('title')
+        html = objects.get('html')
+        text = objects.get('text')
+        tags = objects.get('tags')
+        publisherCountry = objects.get('publisherCountry')
 
         p.date = date
         p.author = author
