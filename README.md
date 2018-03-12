@@ -8,7 +8,7 @@ A simple wrapper for the Diffbot Article API.
 ## example usage
 
 ```
-from diffbot_api.article_parser import ArticleAPI
+from article_parser import ArticleAPI
 
 parser = ArticleAPI(token='YOUR DIFFBOT TOKEN')
 
