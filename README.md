@@ -2,7 +2,10 @@
 
 A simple wrapper for the Diffbot Article API.
 
-# example
+## installation
+`pip install diffbot_api`
+
+## example usage
 
 ```
 from diffbot_api.article_parser import ArticleAPI
@@ -13,10 +16,11 @@ url = 'https://www.nytimes.com/2018/03/10/world/asia/china-xi-jinping-term-limit
 
 article = parser.parse(url)
 
-print(article.title) # 'Ending Term Limits for China’s Xi Is a Big Deal. Here’s Why.'
+print(article.title) 
+>> 'Ending Term Limits for China’s Xi Is a Big Deal. Here’s Why.'
 ```
 
-# available attributes
+## available attributes
 
 * `pageUrl`: the normalized url of the article
 * `date`: the date of the article
